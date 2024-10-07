@@ -32,11 +32,13 @@ a{
     justify-items: center;
     justify-content: center;
 }
-.button img{
-    width: 20px;
-    margin-left: 10px;
+.btn img {
+    width: 30px; /* Make the arrow smaller */
+    height: 20px; /* Make the arrow smaller */
+    margin-left: 6px;
+    margin-top: 5px; /* Space between text and image */
 }
-.button.dark-button{
+.btn.dark-button{
     background: #212EA0;
     color: #fff;
     border-radius: 30px;
