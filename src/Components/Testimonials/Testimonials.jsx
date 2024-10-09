@@ -10,7 +10,7 @@ import user_4 from '../../assets/user-4.png'
 
 const Testimonials = () => {
 
-    const slider = useRef(null);
+    const slider = useRef();
   let tx = 0;
 
   const slideForward = () => {
@@ -19,6 +19,12 @@ const Testimonials = () => {
     }
     slider.current.style.transform = `translateX(${tx}%)`;
 }
+    const slideback = () => {
+        if (tx > -50){
+            tx -= 25;
+        }
+        slider.current.style.transform = `translateX(${tx}%)`;
+    }
     return (
       <div className='testimonials'>
         <img src={next_icon} alt="" className='next-btn' />

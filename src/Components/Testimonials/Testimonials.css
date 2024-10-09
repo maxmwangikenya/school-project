@@ -1,7 +1,10 @@
-.estimonials{
+.testimonials{
     margin: 80px auto;
     padding: 0 80px;
     position: relative;
+    width: 100%;
+    max-width: 1200px;
+    overflow: hidden;
 }
 .next-btn, .back-btn{
     position: absolute;
@@ -13,6 +16,9 @@
     border-radius: 50%;
     cursor: pointer;
     background: #212EA0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .back-btn{
     right: auto;
