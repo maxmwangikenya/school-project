@@ -22,7 +22,7 @@ a{
 .btn{
     background-color: #f5f5f5;
     color: #212121;
-    padding: 15px 30px;
+    padding: 8px 16px;
     font-size: 16px;
     border-radius: 30px;
     cursor: pointer;
@@ -38,10 +38,23 @@ a{
     margin-left: 6px;
     margin-top: 5px; /* Space between text and image */
 }
-.btn.dark-button{
-    background: #212EA0;
-    color: #fff;
-    border-radius: 30px;
-    padding: 15px 30px;
-    font-size: 18px;
+.contact form button {
+    background-color: #212EA0;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;    /* Same padding as .btn.dark-button */
+    border-radius: 20px;  /* Same border-radius */
+    font-size: 18px;      /* Same font size */
+    border: none;
+    outline: none;
+    width: auto;          /* Set the width to auto so it adjusts to content */
+    min-width: 150px;     /* Ensure a minimum width to prevent thin button */
+    margin-top: 15px;
+}
+
+.contact form button img {
+    margin-left: 6px; /* Space between text and icon */
 }
