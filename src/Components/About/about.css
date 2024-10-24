@@ -31,7 +31,8 @@
     top: 50%;
     left: 80%;
     transform: translate(-50%, -50%);
-    z-index: 10; /* Ensures the icon is on top */
+    z-index: 10; 
+    cursor: pointer;/* Ensures the icon is on top */
 }
 
 .about h3 {
